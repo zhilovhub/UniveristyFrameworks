@@ -1,0 +1,13 @@
+{
+  "name": "booking-service",
+  "version": "1.0.0",
+  "description": "Веб-служба бронирования переговорных с машиной состояний и компенсацией",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
