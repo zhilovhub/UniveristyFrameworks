@@ -1,0 +1,11 @@
+{
+  "modules": [
+    "core.js",
+    "logging.js",
+    "validation.js",
+    "export.js",
+    "report.js",
+    "di-demo.js",
+    "lifetime-demo.js"
+  ]
+}
