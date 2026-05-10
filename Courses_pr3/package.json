@@ -1,0 +1,14 @@
+{
+  "name": "pr3-labs-config-and-security",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node src/server.js",
+    "start:prod": "APP_MODE=боевой node src/server.js",
+    "start:custom": "node src/server.js --port=4000 --readPerMinute=30 --writePerMinute=10",
+    "test": "node --test",
+    "test:load": "node test/loadTest.js"
+  },
+  "description": "Веб-служба учёта лабораторных работ с настройками из трёх источников и базовой защитой"
+}
